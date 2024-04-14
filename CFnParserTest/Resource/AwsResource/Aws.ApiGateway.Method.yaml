@@ -1,0 +1,47 @@
+﻿Type: AWS::ApiGateway::Method
+Properties:
+  ApiKeyRequired: true
+  AuthorizationScopes:
+  - String
+  AuthorizationType: String
+  AuthorizerId: String
+  HttpMethod: String
+  Integration:
+    CacheKeyParameters:
+    - String
+    CacheNamespace: String
+    ConnectionId: String
+    ConnectionType: String
+    ContentHandling: String
+    Credentials: String
+    IntegrationHttpMethod: String
+    IntegrationResponses:
+    - ContentHandling: String
+      ResponseParameters:
+        Key: Value
+      ResponseTemplates:
+        Key: Value
+      SelectionPattern: String
+      StatusCode: String
+    PassthroughBehavior: String
+    RequestParameters:
+      Key: Value
+    RequestTemplates:
+      Key: Value
+    TimeoutInMillis: 99
+    Type: String
+    Uri: String
+  MethodResponses:
+  - ResponseModels:
+      Key: Value
+    ResponseParameters:
+      Key: Value
+    StatusCode: String
+  OperationName: String
+  RequestModels:
+    Key: Value
+  RequestParameters:
+    Key: Value
+  RequestValidatorId: String
+  ResourceId: String
+  RestApiId: String

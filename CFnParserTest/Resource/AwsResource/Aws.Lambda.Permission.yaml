@@ -1,0 +1,10 @@
+﻿Type: AWS::Lambda::Permission
+Properties:
+  Action: String
+  EventSourceToken: String
+  FunctionName: String
+  FunctionUrlAuthType: String
+  Principal: String
+  PrincipalOrgID: String
+  SourceAccount: String
+  SourceArn: String

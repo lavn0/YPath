@@ -1,18 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using YPath.Yaml;
-
-namespace YPathTest.Yaml
+﻿namespace YPathTest.Yaml
 {
 	[TestClass]
 	public class YamlParserTest
 	{
 		[DataTestMethod]
 		[DynamicData(nameof(GetSpritData))]
-		public void ParseTest()
+		public void ParseTest(string ypath, string[] array)
 		{
 		}
 

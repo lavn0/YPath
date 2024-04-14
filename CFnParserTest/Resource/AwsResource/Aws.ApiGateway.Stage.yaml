@@ -1,0 +1,38 @@
+﻿Type: AWS::ApiGateway::Stage
+Properties:
+  AccessLogSetting:
+    DestinationArn: String
+    Format: String
+  CacheClusterEnabled: true
+  CacheClusterSize: String
+  CanarySetting:
+    DeploymentId: String
+    PercentTraffic: 99
+    StageVariableOverrides:
+      Key: Value
+    UseStageCache: true
+  ClientCertificateId: String
+  DeploymentId: String
+  Description: String
+  DocumentationVersion: String
+  MethodSettings:
+  - CacheDataEncrypted: true
+    CacheTtlInSeconds: 99
+    CachingEnabled: true
+    DataTraceEnabled: true
+    HttpMethod: String
+    LoggingLevel: String
+    MetricsEnabled: true
+    ResourcePath: String
+    ThrottlingBurstLimit: 99
+    ThrottlingRateLimit: 99.9
+  RestApiId: String
+  StageName: String
+  Tags:
+  - Key: String1
+    Value: string1
+  - Key: String2
+    Value: string2
+  TracingEnabled: true
+  Variables:
+    Key: Value

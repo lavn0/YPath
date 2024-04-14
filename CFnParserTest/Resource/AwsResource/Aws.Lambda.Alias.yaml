@@ -1,0 +1,10 @@
+﻿Type: AWS::Lambda::Alias
+Properties:
+  Description: String
+  FunctionName: String
+  FunctionVersion: String
+  Name: String
+  ProvisionedConcurrencyConfig:
+    ProvisionedConcurrencyConfiguration
+  RoutingConfig:
+    AliasRoutingConfiguration

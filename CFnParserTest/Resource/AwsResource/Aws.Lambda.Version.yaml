@@ -1,0 +1,9 @@
+﻿Type: AWS::Lambda::Version
+Properties:
+  CodeSha256: String
+  Description: String
+  FunctionName: String
+  ProvisionedConcurrencyConfig:
+    ProvisionedConcurrencyConfiguration
+  RuntimePolicy:
+    RuntimePolicy

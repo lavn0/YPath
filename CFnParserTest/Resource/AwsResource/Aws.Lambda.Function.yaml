@@ -1,0 +1,62 @@
+﻿Type: AWS::Lambda::Function
+Properties:
+  Architectures:
+  - String
+  Code:
+    ImageUri: String
+    S3Bucket: String
+    S3Key: String
+    S3ObjectVersion: String
+    ZipFile: String
+  CodeSigningConfigArn: String
+  DeadLetterConfig:
+    TargetArn: String
+  Description: String
+  Environment:
+    Variables:
+      Key: Value
+  EphemeralStorage:
+    Size: 99
+  FileSystemConfigs:
+  - Arn: String
+    LocalMountPath: String
+  FunctionName: String
+  Handler: String
+  ImageConfig:
+    Command:
+    - String
+    EntryPoint:
+    - String
+    WorkingDirectory: String
+  KmsKeyArn: String
+  Layers:
+  - String
+  LoggingConfig:
+    ApplicationLogLevel: String
+    LogFormat: String
+    LogGroup: String
+    SystemLogLevel: String
+  MemorySize: 99
+  PackageType: String
+  ReservedConcurrentExecutions: 99
+  Role: String
+  Runtime: String
+  RuntimeManagementConfig:
+    RuntimeVersionArn: String
+    UpdateRuntimeOn: String
+  SnapStart:
+    ApplyOn: String
+  Tags:
+  - Key: String1
+    Value: string1
+  - Key: String2
+    Value: string2
+  Timeout: 99
+  TracingConfig:
+    Mode: String
+  VpcConfig:
+    Ipv6AllowedForDualStack: true
+    SecurityGroupIds:
+    - String
+    SubnetIds:
+    - String

@@ -1,0 +1,11 @@
+﻿Type: AWS::Lambda::LayerVersion
+Properties:
+  CompatibleArchitectures:
+    - String
+  CompatibleRuntimes:
+    - String
+  Content:
+    Content
+  Description: String
+  LayerName: String
+  LicenseInfo: String
